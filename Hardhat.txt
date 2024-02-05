@@ -1,0 +1,11 @@
+npx hardhat init -> to initialize a hardhat project.
+
+npx hardhat -> to see what is going on.
+
+npx hardhat compile -> to compile the smart contracts.
+
+npx hardhat run </path/to/file> -> to execute the specified script.
+npx hardhat run </path/to/file> --network <network> -> to execute the specified script on the specified network.
+
+npx hardhat node -> to run Hardhat Network.
+
