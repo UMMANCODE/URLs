@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#header {
+    background-color: white;
+}
+
+#header nav ul {
+    gap: 25px;
+    display: flex;
+    padding-top: 16px;
+}
+
+#header nav ul li a {
+    color: black;
+}
+
+#header h1 a {
+    position: relative;
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+#header h1 a::before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 7px;
+    background-color: darkorange;
+    top: 7px;
+    left: -12px;
+}
+
+.card img {
+    max-width: 60%;
+    border-radius: 50%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
