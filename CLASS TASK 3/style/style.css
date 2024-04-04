@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+.toast {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

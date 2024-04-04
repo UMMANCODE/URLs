@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+}
+
+input {
+    margin: 20px;
+    display: block;
+}
+
+button {
+    display: block;
+    margin: 20px;
+}
+
+ul {
+    margin: 20px;
+    padding: 10px;
+    background-color: whitesmoke ;
+}
+
+.toast {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
